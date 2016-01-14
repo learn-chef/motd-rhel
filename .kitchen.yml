@@ -8,8 +8,12 @@ provisioner:
 platforms:
   - name: centos-6.5
     driver:
-      customize:
-        memory: 256
+      box: opscode-centos-6.5
+      box_url: http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.5_chef-provisionerless.box
+  - name: centos-6.6
+    driver:
+      box: opscode-centos-6.6
+      box_url: http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.6_chef-provisionerless.box
 
 suites:
   - name: default
