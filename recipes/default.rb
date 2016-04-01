@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: motd-rhel
+# Cookbook Name:: motd_rhel
 # Recipe:: default
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
