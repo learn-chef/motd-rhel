@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'motd-rhel::default' do
+describe 'motd_rhel::default' do
   # Serverspec examples can be found at
   # http://serverspec.org/resource_types.html
   it 'does something' do
